@@ -50,5 +50,3 @@ Route::post('/login', [\App\Http\Controllers\Auth\LoginController::class, 'store
 //route logout
 Route::post('/logout', [\App\Http\Controllers\Auth\LoginController::class, 'destroy'])->middleware('auth');
 
-anjing2
-
